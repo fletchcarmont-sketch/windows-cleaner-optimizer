@@ -1,0 +1,10 @@
+# See https://github.com/github/linguist
+# Exclude build artifacts
+*.gif binary
+
+*.min.js linguist-generated
+src/**/*.ts linguist-detectable
+public/** linguist-vendored   
+*.htm linguist-vendored 
+
+# eof aece4d2e
